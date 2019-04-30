@@ -75,6 +75,7 @@ RSpec.configure do |config|
 
   Capybara.default_driver = :rack_test
   Capybara.javascript_driver = :chrome_headless
+  Capybara.server = :webrick
 
   # These two settings work together to allow you to limit a spec run
   # to individual examples or groups you care about by tagging them with
